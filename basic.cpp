@@ -1,19 +1,21 @@
 #include <iostream>
 
+using namespace std:
+
 int main(){
   int a=0;
-  std::cout << "write a number: [0-10]: ";
-  std::cin >> a;
+  cout << "write a number: [0-10]: ";
+  cin >> a;
   if(a>10 || a<0)
     {
-      std::cout << "you don't like following instructions, do you?" << std::endl;
+      cout << "you don't like following instructions, do you?" << endl;
     }
   else
     {
-      std::cout << "thanks!" << std::endl;
+      cout << "thanks!" << endl;
     }
 
-  std::cout << "a= " << a << std::endl;
+  cout << "a= " << a << endl;
 
   return 0;
 }
